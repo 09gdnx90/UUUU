@@ -4,20 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alura Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
+
 </head>
 <body>
-    <span class="cabecalho"></span>
-    <div class="menu">
-         <img src="img/Menu.png" alt="menu hamburguer ">
-        <a href="#"><img src="img/poligono.png" alt="triangulo"></a>
-    </div>
-    <div class="menu">
-        <a href="#"><img src="img/Favoritos.svg" alt="coraçao"></a>
-         <a href="#"><img src="img/Compras.png" alt="compras"></a>
-        <a href="#"><img src="img/Usuario.png" alt="usuario"></a>
-    </div>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <span class="cabecalho"></span>
+                <a href="#"><img src="img/Menu.png" alt="menu hamburguer"></a>
+            <a href="#"><img src="img/Polygon 1 (Stroke).png" alt="triangulo"></a>
+            <span class="cabecalho menu_hamburguer container-image"></span>
+
+        
+            </label>
+
+            <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categoria</li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Programação</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Front-End</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu__item">
+                
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Business</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Design & UX</a>
+            </li>
+            </ul>
+
+
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="coracao" class="container-image"></a>
+            <a href="#"><img src="img/Compras.png" alt="carrinho de compras" class="container-image"></a>
+            <a href="#"><img src="img/Usuario.png" alt="meu perfil" class="container-image"></a>
+        </div>
+    </header>
 </body>
 </html>
